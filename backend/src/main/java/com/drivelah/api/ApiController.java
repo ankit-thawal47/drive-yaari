@@ -931,34 +931,34 @@ public class ApiController {
         Location location = new Location();
 
         switch (locationName) {
-            case "Marina Bay Sands":
-                location.setLat(1.2834);
-                location.setLon(103.8607);
+            case "Connaught Place":
+                location.setLat(28.6315);
+                location.setLon(77.2167);
                 break;
-            case "Orchard Road":
-                location.setLat(1.3048);
-                location.setLon(103.8318);
+            case "India Gate":
+                location.setLat(28.6129);
+                location.setLon(77.2295);
                 break;
-            case "Changi Airport":
-                location.setLat(1.3644);
-                location.setLon(103.9915);
+            case "Red Fort":
+                location.setLat(28.6562);
+                location.setLon(77.2410);
                 break;
-            case "Jurong East":
-                location.setLat(1.3329);
-                location.setLon(103.7436);
+            case "Karol Bagh":
+                location.setLat(28.6519);
+                location.setLon(77.1909);
                 break;
-            case "Woodlands":
-                location.setLat(1.4382);
-                location.setLon(103.7890);
+            case "Saket":
+                location.setLat(28.5245);
+                location.setLon(77.2066);
                 break;
-            case "Tampines":
-                location.setLat(1.3496);
-                location.setLon(103.9568);
+            case "Gurgaon Cyber City":
+                location.setLat(28.4950);
+                location.setLon(77.0890);
                 break;
             default:
-                // Default to Marina Bay Sands if unknown location
-                location.setLat(1.2834);
-                location.setLon(103.8607);
+                // Default to Connaught Place if unknown location
+                location.setLat(28.6315);
+                location.setLon(77.2167);
                 break;
         }
 

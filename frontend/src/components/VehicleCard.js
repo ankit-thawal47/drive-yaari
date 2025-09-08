@@ -165,12 +165,12 @@ const VehicleCard = ({ vehicle }) => {
                 }}
               >
                 <option value="">Select pickup location</option>
-                <option value="Marina Bay Sands">Marina Bay Sands</option>
-                <option value="Orchard Road">Orchard Road</option>
-                <option value="Changi Airport">Changi Airport</option>
-                <option value="Jurong East">Jurong East</option>
-                <option value="Woodlands">Woodlands</option>
-                <option value="Tampines">Tampines</option>
+                <option value="Connaught Place">Connaught Place</option>
+                <option value="India Gate">India Gate</option>
+                <option value="Red Fort">Red Fort</option>
+                <option value="Karol Bagh">Karol Bagh</option>
+                <option value="Saket">Saket</option>
+                <option value="Gurgaon Cyber City">Gurgaon Cyber City</option>
               </select>
             </div>
             <div style={{ marginBottom: '15px' }}>
@@ -189,12 +189,12 @@ const VehicleCard = ({ vehicle }) => {
                 }}
               >
                 <option value="">Select drop location</option>
-                <option value="Marina Bay Sands">Marina Bay Sands</option>
-                <option value="Orchard Road">Orchard Road</option>
-                <option value="Changi Airport">Changi Airport</option>
-                <option value="Jurong East">Jurong East</option>
-                <option value="Woodlands">Woodlands</option>
-                <option value="Tampines">Tampines</option>
+                <option value="Connaught Place">Connaught Place</option>
+                <option value="India Gate">India Gate</option>
+                <option value="Red Fort">Red Fort</option>
+                <option value="Karol Bagh">Karol Bagh</option>
+                <option value="Saket">Saket</option>
+                <option value="Gurgaon Cyber City">Gurgaon Cyber City</option>
               </select>
             </div>
           </div>

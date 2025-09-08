@@ -55,12 +55,12 @@ const Dashboard = () => {
     const lon = location.lon;
     
     // Map coordinates back to location names (approximate matching)
-    if (Math.abs(lat - 1.2834) < 0.01 && Math.abs(lon - 103.8607) < 0.01) return 'Marina Bay Sands';
-    if (Math.abs(lat - 1.3048) < 0.01 && Math.abs(lon - 103.8318) < 0.01) return 'Orchard Road';
-    if (Math.abs(lat - 1.3644) < 0.01 && Math.abs(lon - 103.9915) < 0.01) return 'Changi Airport';
-    if (Math.abs(lat - 1.3329) < 0.01 && Math.abs(lon - 103.7436) < 0.01) return 'Jurong East';
-    if (Math.abs(lat - 1.4382) < 0.01 && Math.abs(lon - 103.7890) < 0.01) return 'Woodlands';
-    if (Math.abs(lat - 1.3496) < 0.01 && Math.abs(lon - 103.9568) < 0.01) return 'Tampines';
+    if (Math.abs(lat - 28.6315) < 0.01 && Math.abs(lon - 77.2167) < 0.01) return 'Connaught Place';
+    if (Math.abs(lat - 28.6129) < 0.01 && Math.abs(lon - 77.2295) < 0.01) return 'India Gate';
+    if (Math.abs(lat - 28.6562) < 0.01 && Math.abs(lon - 77.2410) < 0.01) return 'Red Fort';
+    if (Math.abs(lat - 28.6519) < 0.01 && Math.abs(lon - 77.1909) < 0.01) return 'Karol Bagh';
+    if (Math.abs(lat - 28.5245) < 0.01 && Math.abs(lon - 77.2066) < 0.01) return 'Saket';
+    if (Math.abs(lat - 28.4950) < 0.01 && Math.abs(lon - 77.0890) < 0.01) return 'Gurgaon Cyber City';
     
     return `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
   };
