@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:drivelah
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: drivelah
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
